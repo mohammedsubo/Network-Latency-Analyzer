@@ -1,0 +1,20 @@
+{
+  "name": "network-latency-analyzer",
+  "version": "2.0.0",
+  "description": "Professional Network Latency Analyzer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "cd backend && npm start",
+    "server:dev": "cd backend && npm run dev",
+    "start": "concurrently \"npm run dev\" \"npm run server:dev\""
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "concurrently": "^8.2.2"
+  }
+}
