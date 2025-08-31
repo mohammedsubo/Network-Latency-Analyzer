@@ -1,5 +1,4 @@
-﻿import './style.css';
-class NetworkAnalyzer {
+﻿class NetworkAnalyzer {
     constructor() {
         this.isRunning = false;
         this.testResults = [];
